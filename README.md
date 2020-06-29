@@ -2,6 +2,8 @@
 
 Welcome to Silicon Valley! For this assignment, our domain is the startup world! We have three models - `Startup`, `VentureCapitalist`, and `FundingRound`. A `Startup` has many `VentureCapitalist`s through `FundingRound`s.
 
+Startup ----<FundingRound>----Venture Capitalist(many)
+
 If you are not sketching out your domain, and thinking about single source of truth,
 you are doing it wrong :(
 
@@ -27,7 +29,7 @@ We've provided you with a console that you can use to test your code. To enter a
 
 #### Build the following methods on the `Startup` class
 
-- `Startup#name`
+<!-- - `Startup#name`
   - returns a **string** that is the startup's name
 - `Startup#founder`
   - returns a **string** that is the founder's name
@@ -43,7 +45,7 @@ We've provided you with a console that you can use to test your code. To enter a
 - `Startup.find_by_founder`
   - given a string of a **founder's name**, returns the **first startup** whose founder's name matches
 - `Startup.domains`
-  - should return an **array** of all of the different startup domains
+  - should return an **array** of all of the different startup domains -->
 
 ---
 
